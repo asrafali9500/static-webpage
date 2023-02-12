@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header img {
+    width: 50px;
+    height: 50px;
+}
+
+.headcolor .navbar {
+    background-color: #272343 !important;
+    color: white;
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+
+}
+
+.headcolor .navbar:hover {
+    color: #bae8e8;
+}
+
+.headcolor .navbar-toggler {
+    background-color: white;
+}
+
+.headcolor .navbar-toggler:hover {
+    background-color: #bae8e8;
+}
+
+.headcolor #navbarSupportedContent .navbar-nav .nav-item .nav-link {
+
+    color: white;
+}
+
+.headcolor #navbarSupportedContent .navbar-nav .nav-item .nav-link:hover {
+    color: #bae8e8;
+}
+
+.main.row {
+    background-image: linear-gradient(45deg,
+            hsl(177deg 51% 93%) 0%,
+            hsl(177deg 51% 92%) 11%,
+            hsl(178deg 51% 90%) 22%,
+            hsl(178deg 50% 89%) 33%,
+            hsl(178deg 50% 88%) 44%,
+            hsl(179deg 50% 87%) 56%,
+            hsl(179deg 50% 86%) 67%,
+            hsl(179deg 50% 84%) 78%,
+            hsl(180deg 50% 83%) 89%,
+            hsl(180deg 50% 82%) 100%);
+}
+
+.main2.row {
+    background-image: linear-gradient(45deg,
+            hsl(190deg 48% 65%) 0%,
+            hsl(192deg 44% 59%) 11%,
+            hsl(194deg 41% 54%) 22%,
+            hsl(196deg 38% 50%) 33%,
+            hsl(198deg 43% 45%) 44%,
+            hsl(200deg 48% 40%) 56%,
+            hsl(202deg 53% 36%) 67%,
+            hsl(204deg 59% 32%) 78%,
+            hsl(206deg 65% 27%) 89%,
+            hsl(208deg 72% 24%) 100%);
+}
+
+.main3.row {
+    background-image: linear-gradient(45deg,
+            hsl(177deg 51% 93%) 0%,
+            hsl(177deg 51% 92%) 11%,
+            hsl(178deg 51% 90%) 22%,
+            hsl(178deg 50% 89%) 33%,
+            hsl(178deg 50% 88%) 44%,
+            hsl(179deg 50% 87%) 56%,
+            hsl(179deg 50% 86%) 67%,
+            hsl(179deg 50% 84%) 78%,
+            hsl(180deg 50% 83%) 89%,
+            hsl(180deg 50% 82%) 100%);
+}
+
+#cats img {
+
+    /* width: 1500px; */
+    height: 600px;
+
+
+}
+
+#text-block h4 {
+    font-weight: bold;
+}
+
+#text-block {
+
+    position: relative;
+    background: #c5c5c570;
+    margin-top: 250px;
+    color: #272343;
+    font-weight: bold;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#text-block h4,
+p {
+    padding: 10px 10px 10px 0;
+    font-size: 35px;
+    font-weight: medium;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#bottom {
+    text-align: center;
+}
+
+footer {
+    padding: 30px;
+
+    background-color: #272343;
+}
+
+footer h4 {
+    color: white;
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+footer i {
+    padding: 7px;
+}
+
+#copy h4 {
+    text-align: center;
+}
+
+.image img {
+    height: 150px;
+    width: 150px;
+}
+
+.text {
+    font-size: 20px;
+}
+
+.groupimg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../images/bgimage.jpg');
+
+    background-repeat: repeat-y;
+    background-color: white;
+    height: 500px;
+    margin: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-left: 0;
+    opacity: 1;
+
+}
+
+.imageset img {
+    padding-bottom: 20px;
+    padding-top: 10px;
+    border-radius: 20px;
+    height: 200px;
+
+}
+
+.imageset img:hover {
+    opacity: 0.8;
+}
+
+.images img {
+    /* margin-right: 20px;
+    margin-left: 10px; */
+    padding: 5px 10px;
+    border-radius: 20px;
+    height: 200px;
+    transition: transform .8s ease-in-out;
+}
+
+.images img:hover {
+    transform: rotate(360deg);
+    cursor: pointer;
+    /* opacity: 0.5; */
+}
+
+
+.groupimg1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../images/bgimage.jpg');
+    background-repeat: repeat-y;
+    background-color: white;
+    height: 500px;
+    margin: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-left: 15px;
+    /* width: fit-content; */
+}
+
+.image2 img {
+
+    height: 190px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 40px;
+    padding: 25px;
+    width: 250px;
+}
+
+.image2 img:hover {
+    opacity: 0.4;
+
+    cursor: pointer;
+
+}
+
+.image3 img {
+    width: 175px;
+    height: 150px;
+    margin-top: 60px;
+    margin-right: 200px;
+    border-radius: 20px;
+}
+
+
+.image1 img {
+
+
+    margin-right: 60px;
+    margin-left: 60px;
+    border-radius: 40px;
+    padding: 25px;
+    height: 200px;
+    transition: transform 0.3s;
+    width: 250px;
+
+
+}
+
+.image1 img:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+    transition-timing-function: ease-in-out;
+}
+
+.groupimg2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-color: white;
+    height: 500px;
+    margin: 10px 0;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.groupimg2 img {
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+    -webkit-filter: grayscale(0) blur(0);
+    filter: grayscale(0) blur(0);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.groupimg2 img:hover {
+    -webkit-filter: grayscale(100%) blur(3px);
+    filter: grayscale(100%) blur(3px);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.text h3 {
+    margin-bottom: 40px;
+    font-size: xx-large;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+
+
+}
+
+.texts h3 {
+    margin-bottom: 40px;
+    font-size: xx-large;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: white
+}
+
+.texts p {
+    text-align: justify;
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.text h6 {
+    font-size: large;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.text p {
+    text-align: justify;
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+}
+
+.text button {
+    margin-top: 20px;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    background-color: #272343;
+    border: 2px solid #272343;
+}
+
+.text button:hover {
+    background-color: #bae8e8;
+    color: #272343;
+
+}
+
+.icon {
+    color: white;
+
+}
+
+.icon:hover {
+    color: #bae8e8;
+    /* cursor: pointer; */
+}
+
+@media(max-width:1024px) {
+    .image2 {
+        position: relative;
+        right: 50px
+    }
+
+    .image1 {
+        position: relative;
+        left: 20px
+    }
+
+    .groupimg1 img {
+        width: 200px;
+    }
+}
